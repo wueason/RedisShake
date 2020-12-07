@@ -1,6 +1,12 @@
 RedisShake is mainly used to synchronize data from one redis to another.<br>
 Thanks to the Douyu's WSD team for the support. <br>
 
+# 开门见山
+
+* **`./redis-shake.linux -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Linux**
+* **`./redis-shake.darwin -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Mac**
+* **`./redis-shake.windows -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Windows**
+
 * [中文文档](https://yq.aliyun.com/articles/691794)
 * [English tutorial](https://github.com/alibaba/RedisShake/wiki/tutorial-about-how-to-set-up)
 * [中文使用文档](https://github.com/alibaba/RedisShake/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E9%85%8D%E7%BD%AE%EF%BC%9F)
@@ -74,10 +80,6 @@ User can use `-version` to print the version.
 # Usage
 ---
 You can **directly download** the binary in the [release package](https://github.com/alibaba/RedisShake/releases), and use `start.sh` script to start it directly: `./start.sh redis-shake.conf sync`.<br>
-
-or **`./redis-shake.linux -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Linux**
-or **`./redis-shake.darwin -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Mac**
-or **`./redis-shake.windows -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Windows**
 
 You can also build redis-shake yourself according to the following steps, the `go` and `govendor` must be installed before compile:
 *  git clone https://github.com/alibaba/RedisShake.git
