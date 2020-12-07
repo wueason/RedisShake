@@ -74,6 +74,11 @@ User can use `-version` to print the version.
 # Usage
 ---
 You can **directly download** the binary in the [release package](https://github.com/alibaba/RedisShake/releases), and use `start.sh` script to start it directly: `./start.sh redis-shake.conf sync`.<br>
+
+or **`./redis-shake.linux -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Linux**
+or **`./redis-shake.darwin -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Mac**
+or **`./redis-shake.windows -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Windows**
+
 You can also build redis-shake yourself according to the following steps, the `go` and `govendor` must be installed before compile:
 *  git clone https://github.com/alibaba/RedisShake.git
 *  cd RedisShake
