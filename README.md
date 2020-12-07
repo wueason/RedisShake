@@ -4,7 +4,9 @@ Thanks to the Douyu's WSD team for the support. <br>
 # 开门见山
   + **`./redis-shake.linux -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Linux**
   + **`./redis-shake.darwin -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Mac**
-  + *`./redis-shake.windows -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Windows**
+  + **`./redis-shake.windows -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Windows**
+
+# 目录
 
 * [中文文档](https://yq.aliyun.com/articles/691794)
 * [English tutorial](https://github.com/alibaba/RedisShake/wiki/tutorial-about-how-to-set-up)
