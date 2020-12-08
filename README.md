@@ -6,6 +6,15 @@ Thanks to the Douyu's WSD team for the support. <br>
   + **`./redis-shake.darwin -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Mac**
   + **`./redis-shake.windows -conf=redis-shake.conf -type=sync > /dev/null 2>&1 &` on Windows**
 
+# Tips
++ `key_exists`参数的设置
+```
+# rewrite: overwrite. 
+# none: panic directly.
+# ignore: skip this key. not used in rump mode.
+```
+
+
 # 目录
 
 * [中文文档](https://yq.aliyun.com/articles/691794)
